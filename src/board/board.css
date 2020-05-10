@@ -1,0 +1,10 @@
+.board {
+  border: 2px silver solid;
+  border-radius: 5px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+
+html{
+    background-color: rgba(0, 139, 139);
+}
+.game{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 1px 4px black;
+    padding:15px;
+    background-color: red;
+    border-radius: 5px;
+}
+.game button{
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: wheat;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.game button:hover{
+background-color: yellow;
+color: green;
+}
+.board-Input{
+    width: 100px;
+    margin-left: 5px;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: wheat;
+    margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+.WinPage{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    transform: translateX(-50%) scale(0.5);
+    animation: winAnimation 1.5s forwards ease;
+}
+.WinPage-text{
+    margin-top: 80px;
+    font-size: 5rem;
+    font-weight: 500;
+    word-spacing: 0.5rem;
+    margin-bottom: 8rem;
+    text-align: center;
+    color: #ff8a66;
+}
+.WinPage-button{
+ 
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.WinPage-button:hover{
+    background-color: #ff8a66;
+    color: red;
+}
+
+
+@keyframes winAnimation {
+    100%{
+        transform: translateX(-50%) scale(1);
+        opacity: 1;
+    }
+    }
+
+
+
+
+
+

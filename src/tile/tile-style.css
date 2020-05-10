@@ -1,0 +1,25 @@
+
+.inactive,
+.active {
+  border-radius: 5px;
+  width: 4rem;
+  height: 4rem;
+ 
+}
+
+.inactive {
+  background-color: red;
+  border: 1px solid  transparent;
+
+}
+.active {
+  background-color: wheat;
+  border: 1px solid black;
+  cursor: pointer;
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
