@@ -6,7 +6,7 @@ import TileStyle from "../tile/tile-style";
 
 const Board = (props) => {
   const { platformData } = props;
-  console.log(props);
+  
   const handleIndex = (xCord, yCord) => {
     const data = [...platformData];
 

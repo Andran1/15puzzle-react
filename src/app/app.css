@@ -3,7 +3,7 @@ html{
     background-color: rgba(0, 139, 139);
 }
 .game{
-    position: absolute;
+    position: absolute; 
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
@@ -11,6 +11,7 @@ html{
     padding:15px;
     background-color: red;
     border-radius: 5px;
+    
 }
 .game button{
     color: blue;
@@ -38,4 +39,8 @@ color: green;
     border-radius: 5px;
     background-color: wheat;
     margin-top: 10px;
+   
+}
+.footer{
+    display: flex;
 }

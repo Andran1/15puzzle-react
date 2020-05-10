@@ -2,7 +2,7 @@ import React from "react";
 import "./tile-style.css";
 
 const TileStyle = (props) => {
-    console.log(props);
+  
   const { num } = props;
  
   let classes;
