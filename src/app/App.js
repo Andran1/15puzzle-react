@@ -49,7 +49,7 @@ class App extends Component {
     const { victory } = this.state;
 
     return (
-      <div>
+      <div className="game-bg">
         <div className="game">
           <Board />
           <div className="footer">
